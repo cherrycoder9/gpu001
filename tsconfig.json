@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "module": "ES2022",
+    "rootDir": "src",
+    "types": [
+      "node",
+      "@webgpu/types"
+    ],
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
